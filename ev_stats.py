@@ -52,5 +52,4 @@ else:
   sns.despine(left=True, bottom=True)
   st.pyplot(f)
 
-st.write(plot_order_lower)
-st.write(plot_order_higher)
+st.write(data)
