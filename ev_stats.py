@@ -1,5 +1,8 @@
 import pandas as pd
-data = pd.read_csv('exported.csv')
+
+url = 'https://github.com/Dekanas/Streamlit/blob/main/exported.csv'
+
+data = pd.read_csv(url)
 
 import seaborn as sns
 import matplotlib.pyplot as plt
