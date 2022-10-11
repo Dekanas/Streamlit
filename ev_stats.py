@@ -24,6 +24,7 @@ product = st.sidebar.selectbox(
               '>50000'
             ])
 if product == '<50000':
+  sns.set_theme()
   f, ax = plt.subplots(figsize=(10, 15))
 
   sns.set_color_codes("pastel")
@@ -37,6 +38,7 @@ if product == '<50000':
   sns.despine(left=True, bottom=True)
   st.pyplot(f)
 else:
+  sns.set_theme()
   f, ax = plt.subplots(figsize=(10, 15))
 
   sns.set_color_codes("pastel")
