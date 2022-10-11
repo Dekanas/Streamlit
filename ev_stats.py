@@ -4,8 +4,6 @@ url = 'https://raw.githubusercontent.com/Dekanas/Streamlit/main/exported.csv'
 
 data = pd.read_csv(url)
 
-pip install seaborn
-
 import seaborn as sns
 import matplotlib.pyplot as plt
 
