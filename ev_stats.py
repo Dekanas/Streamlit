@@ -25,8 +25,7 @@ product = st.sidebar.selectbox(
             ])
 if product == '<50000':
   sns.set(style="ticks", context="talk")
-  sns.set_theme()
-  plt.style.use("dark_background")
+  plt.style.use('ggplot')
   f, ax = plt.subplots(figsize=(10, 15))
 
   sns.set_color_codes("pastel")
@@ -41,8 +40,7 @@ if product == '<50000':
   st.pyplot(f)
 else:
   sns.set(style="ticks", context="talk")
-  sns.set_theme()
-  plt.style.use("dark_background")
+  plt.style.use('ggplot')
   f, ax = plt.subplots(figsize=(10, 15))
 
   sns.set_color_codes("pastel")
