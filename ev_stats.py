@@ -1,6 +1,6 @@
 import pandas as pd
 
-url = 'https://github.com/Dekanas/Streamlit/blob/main/exported.csv'
+url = 'https://raw.githubusercontent.com/Dekanas/Streamlit/main/exported.csv?token=GHSAT0AAAAAABZZZO47AGNJTO6SJ2BX3RJGY2FOIXQ'
 
 data = pd.read_csv(url)
 
