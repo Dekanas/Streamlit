@@ -25,7 +25,7 @@ product = st.sidebar.selectbox(
             ])
 if product == '<50000':
   sns.set(style="ticks", context="talk")
-  plt.style.use("white_background")
+  plt.style.use("whitegrid")
   f, ax = plt.subplots(figsize=(10, 15))
 
   sns.set_color_codes("pastel")
@@ -40,7 +40,7 @@ if product == '<50000':
   st.pyplot(f)
 else:
   sns.set(style="ticks", context="talk")
-  plt.style.use("white_background")
+  plt.style.use("whitegrid")
   f, ax = plt.subplots(figsize=(10, 15))
 
   sns.set_color_codes("pastel")
